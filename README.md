@@ -6,7 +6,7 @@ Users can search for countries, filter by region, and switch between light and d
 ---
 
 ## 🚀 Live Demo  
-🔗 https://countries-detail-app.netlify.app
+🔗 [https://countries-detail-app.netlify.app](https://countries-details-rest-api-react.netlify.app/)
 
 ---
 
@@ -29,7 +29,10 @@ Users can search for countries, filter by region, and switch between light and d
 ---
 
 ## 📷 Screenshots  
-*(Add screenshots of your app here if available)*  
+<img width="828" height="1792" alt="countries-details-rest-api-react netlify app_Pakistan(iPhone XR) (3)" src="https://github.com/user-attachments/assets/8acf0494-323b-4297-9f2d-55134cd26fb4" />
+<img width="1910" height="918" alt="Screenshot 2026-01-13 003409" src="https://github.com/user-attachments/assets/20537662-7ea6-4c21-b463-42f6a95857a0" />
+<img width="1918" height="911" alt="Screenshot 2026-01-13 003447" src="https://github.com/user-attachments/assets/f5a25d01-5b45-418e-8d34-84d36af8547c" />
+<img width="828" height="2120" alt="countries-details-rest-api-react netlify app_Pakistan(iPhone XR) (1)" src="https://github.com/user-attachments/assets/da8e141d-cbc5-48af-8d2f-7496871d007b" />
 
 ---
 
