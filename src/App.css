@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
+;
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins, sans-serif;
+    /* border: 1px solid; */
+}
+
+:root {
+    --primary-bg-color: #f0efef;
+    --border-color: #f1f1f1;
+    --default-bg-color: #ffff;
+    --text-default-color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.darken{
+    --primary-bg-color: #424242;
+    --border-color: #363636;
+    --default-bg-color: #2c2c2c;
+    --text-default-color: rgb(255, 253, 253);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-bg-color);
+    margin: 0;
+    color: var(--text-default-color);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 3%;
+    background-color: var(--default-bg-color);
+    box-shadow: 0px 5px 8px var(--border-color);
+    font-family: Nunito;
+    color: var(--text-default-color);
+    margin: 0;
+    position: sticky;
+    top: 0%;
+
+}
+
+.heading{
+    margin: 0.5rem 0;
+}
+
+.heading a {
+    text-decoration: none;
+    color: var(--text-default-color);
+}
+
+.theme i {
+    font-size: 1.5rem;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+main {
+    max-width: 1420px;
+    margin-inline: auto;
+    padding: 0.5rem 3%;
+    color: var(--text-default-color);
+}
+
+.head {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.input-field {
+    background: var(--default-bg-color);
+    /* border: 1px solid; */
+    flex-grow: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px var(--border-color);
+    gap: 1rem;
+    padding: 0.8rem 2rem;
+
+}
+
+.input-field i {
+    font-size: 1.4rem;
+}
+
+.input-field input {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: transparent;
+    color: var(--text-default-color);
+}
+
+.input-field input::placeholder {
+    font-weight: 400;
+    color: var(--text-default-color);
+}
+
+.regions-box {
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px var(--border-color);
+    display: flex;
+    align-items: center;
+    background-color: var(--default-bg-color);
+    /* padding: 0rem 1rem; */
+    padding: 0.8rem 2rem;
+ 
+}
+
+.regions-box select {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    color: var(--text-default-color);
+    cursor: pointer;
+}
+
+.regions-box select option{
+    color: var(--text-default-color);
+    background-color: var(--default-bg-color);
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.countries-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.country-card {
+    flex-basis: 300px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px var(--text-default-color);
+    flex-grow: 0.5;
+}
+
+.country-card a img {
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid var(--text-default-color);
+}
+
+.country-det {
+    padding: 0.6rem 1rem 2rem 1rem;
+    font-family: Nunito, sans-serif;
+}
+
+.country-det .Country-name {
+    font-size: 1.3rem;
+    margin: 0.8rem 0;
+    font-weight: 900;
+}
+
+.country-det p {
+    font-weight: 700;
+    margin: 0.3rem 0;
+}
+
+.country-det p span {
+    font-weight: 400;
+    padding-left: 0.3rem;
+}
+
+@media screen and (max-width:575px) {
+    .head{
+        gap: 1rem;
+    }
+
+    .header{
+        padding: 0.3rem 5%;
+    }
+
+    .header h1{
+        font-size: 1.5rem;
+    }
+}
